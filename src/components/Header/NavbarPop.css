@@ -1,0 +1,13 @@
+.navbar {
+    background: rgb(245, 218, 234);
+}
+.navbar-logo{
+    height: auto;
+    width: 10rem;
+}
+.navbar-link-style {
+    display: flex;
+    align-items: center;
+    justify-content: end !important;
+    flex-grow: 0;
+}

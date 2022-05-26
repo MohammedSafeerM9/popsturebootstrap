@@ -1,0 +1,52 @@
+.box1{
+  background: rgb(245, 218, 234);
+  height: 100vh;
+}
+
+.box2 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.hero-heading {
+  
+  font-size: 4rem;
+  font-weight: bolder;
+  color: black;
+}
+  
+.hero-heading span {
+  background: #ee0979; /* fallback for old browsers */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+}
+.hero-discrip {
+  font-size: 1.5rem;
+  text-align: left;
+  color: black;
+} 
+.box3 {
+  display: flex;
+  justify-content: center;
+
+}
+.box4 {
+  padding-left: 21rem;
+  font-weight: bold;
+}
+
+
+.box5 {
+  display: flex;
+  justify-content: center;
+}
+.box6 {
+  width: 40rem;
+  height: 25rem;
+  
+}
+.box7 {
+  font-weight: bolder;
+}
