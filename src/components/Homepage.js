@@ -10,7 +10,7 @@ const Homepage = () => {
                 <Container>
                     <Row>
                         <Col></Col>
-                        <Col xs={10} className="box2">
+                        <Col xs={10} className="box2 ps-2">
                             <h1 className="hero-heading">Popsture is a Global <span>UI/UX design & branding</span> studio</h1>
                             <p className='hero-discrip'>that creates best-in-class digital experiences to help businesses succeed in <br /> today's digital world</p>
                             <Button className="" variant="primary">Start Project</Button>{' '}
@@ -89,6 +89,21 @@ const Homepage = () => {
                             <video  autoPlay muted>
                                 <source src="./assets/videos/sample.mp4" type="video/mp4" />
                             </video>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            <div>
+                <Container fluid>
+                    <Row>
+                        <Col>
+                            <div className='client-container'>
+                                <h2>Our Recent Clients</h2>
+                                <p>From early stage startup to rennowed brannds,<br /> we have plenty of stories to share</p>
+
+                            </div>
+
+
                         </Col>
                     </Row>
                 </Container>
