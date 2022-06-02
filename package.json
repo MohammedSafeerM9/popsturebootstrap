@@ -1,5 +1,6 @@
 {
   "name": "popsture",
+  "homepage": "https://sample.popsture.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,4 +1,4 @@
-.box1{
+.homepage-main {
   background: rgb(245, 218, 234);
   height: 100vh;
 }
@@ -9,9 +9,10 @@
 }
 .hero-heading {
   
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: bolder;
   color: black;
+  padding-left: 6.5rem;
 }
   
 .hero-heading span {
@@ -23,17 +24,23 @@
   -mo-text-fill-color: transparent;
 }
 .hero-discrip {
-  font-size: 1.5rem;
+  padding-left: 6.5rem;
+  font-size: 1.75rem;
   text-align: left;
   color: black;
 } 
+.button-style {
+  padding-left: 6.5rem;
+  
+}
 .box3 {
   display: flex;
   justify-content: center;
+  gap:1rem;
 
 }
 .box4 {
-  padding-left: 21rem;
+  padding-left: 14rem;
   font-weight: bold;
 }
 
@@ -53,5 +60,41 @@
 
 .client-container {
   font-weight: bolder;
-  padding-left: 21rem;
+  padding-left: 14.5rem;
 }
+
+.card-text-list {
+  text-decoration: none;
+  padding: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+@media (max-width: 480px) {
+  .box2 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .hero-heading {
+    padding-left: 0rem;
+  }
+  .hero-discrip {
+    padding-left: 0rem;
+    font-size: 1rem;
+  }
+  .button-style {
+    padding-left: 0rem;
+
+  }
+  .box4 {
+    padding-left: 0rem;
+    padding-top: 8rem;
+
+  }
+  .box3 {
+    display: grid;
+    justify-content: center;
+  }
+  .client-container {
+    padding-left: 0rem;
+  }
+}
+  

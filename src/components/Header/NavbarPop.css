@@ -1,5 +1,9 @@
 .navbar {
     background: rgb(245, 218, 234);
+    
+}
+.navbar-container {
+    width: 75% !important;
 }
 .navbar-logo{
     height: auto;
@@ -10,4 +14,10 @@
     align-items: center;
     justify-content: end !important;
     flex-grow: 0;
+}
+@media (max-width: 480px) {
+    .navbar-container {
+        width: auto;
+        padding: 0rem;
+    }
 }
